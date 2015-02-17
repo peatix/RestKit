@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2501405315366000004E0466 /* RKObjectiveCppTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2501405215366000004E0466 /* RKObjectiveCppTest.mm */; };
 		2501405415366000004E0466 /* RKObjectiveCppTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2501405215366000004E0466 /* RKObjectiveCppTest.mm */; };
 		25055B8414EEF32A00B9C4DD /* RKMappingTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 25055B8014EEF32A00B9C4DD /* RKMappingTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25055B8514EEF32A00B9C4DD /* RKMappingTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 25055B8014EEF32A00B9C4DD /* RKMappingTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,16 +20,13 @@
 		25055B9014EEF40000B9C4DD /* RKMappingTestExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = 25055B8D14EEF40000B9C4DD /* RKMappingTestExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25055B9114EEF40000B9C4DD /* RKMappingTestExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25055B8E14EEF40000B9C4DD /* RKMappingTestExpectation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		25055B9214EEF40000B9C4DD /* RKMappingTestExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25055B8E14EEF40000B9C4DD /* RKMappingTestExpectation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		25055B9314EEFEC800B9C4DD /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25160D1614564E810060A5C5 /* libRestKit.a */; };
 		25079C6F151B93DB00266AE7 /* NSEntityDescription+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25079C6D151B93DB00266AE7 /* NSEntityDescription+RKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25079C70151B93DB00266AE7 /* NSEntityDescription+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 25079C6D151B93DB00266AE7 /* NSEntityDescription+RKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25079C71151B93DB00266AE7 /* NSEntityDescription+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25079C6E151B93DB00266AE7 /* NSEntityDescription+RKAdditions.m */; };
 		25079C72151B93DB00266AE7 /* NSEntityDescription+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25079C6E151B93DB00266AE7 /* NSEntityDescription+RKAdditions.m */; };
-		25079C76151B952200266AE7 /* NSEntityDescription+RKAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25079C75151B952200266AE7 /* NSEntityDescription+RKAdditionsTest.m */; };
 		25079C77151B952200266AE7 /* NSEntityDescription+RKAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25079C75151B952200266AE7 /* NSEntityDescription+RKAdditionsTest.m */; };
 		250B849E152B6F63002581F9 /* RKObjectMappingProvider+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DA8E1B14D1BA960054DD73 /* RKObjectMappingProvider+CoreData.m */; };
 		250CA67D147D8E8B0047D347 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250CA67B147D8E800047D347 /* OCHamcrest.framework */; };
-		250CA67E147D8E8F0047D347 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250CA67C147D8E800047D347 /* OCHamcrestIOS.framework */; };
 		250CA680147D8F050047D347 /* OCHamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 250CA67B147D8E800047D347 /* OCHamcrest.framework */; };
 		250DF22A14C5190E0001DEFA /* RKOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 250DF22814C5190E0001DEFA /* RKOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		250DF22B14C5190E0001DEFA /* RKOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 250DF22814C5190E0001DEFA /* RKOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,14 +34,10 @@
 		250DF22D14C5190E0001DEFA /* RKOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 250DF22914C5190E0001DEFA /* RKOrderedDictionary.m */; };
 		250DF25F14C680F90001DEFA /* RKObjectMappingProvider+Contexts.h in Headers */ = {isa = PBXBuildFile; fileRef = 250DF25E14C680F90001DEFA /* RKObjectMappingProvider+Contexts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		250DF26014C680F90001DEFA /* RKObjectMappingProvider+Contexts.h in Headers */ = {isa = PBXBuildFile; fileRef = 250DF25E14C680F90001DEFA /* RKObjectMappingProvider+Contexts.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25119FB6154A34B400C6BC58 /* parents_and_children.json in Resources */ = {isa = PBXBuildFile; fileRef = 25119FB5154A34B400C6BC58 /* parents_and_children.json */; };
 		25119FB7154A34B400C6BC58 /* parents_and_children.json in Resources */ = {isa = PBXBuildFile; fileRef = 25119FB5154A34B400C6BC58 /* parents_and_children.json */; };
 		2513504E14B8FE6B00A7E893 /* RKConfigurationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2513504D14B8FE6B00A7E893 /* RKConfigurationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2513504F14B8FE6B00A7E893 /* RKConfigurationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2513504D14B8FE6B00A7E893 /* RKConfigurationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160D1A14564E810060A5C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25160D1914564E810060A5C5 /* Foundation.framework */; };
-		25160D2814564E820060A5C5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25160D2714564E820060A5C5 /* SenTestingKit.framework */; };
-		25160D2A14564E820060A5C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25160D2914564E820060A5C5 /* UIKit.framework */; };
-		25160D2B14564E820060A5C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25160D1914564E810060A5C5 /* Foundation.framework */; };
 		25160DD5145650490060A5C5 /* CoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160D46145650490060A5C5 /* CoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160DD6145650490060A5C5 /* NSManagedObject+ActiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160D47145650490060A5C5 /* NSManagedObject+ActiveRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160DD7145650490060A5C5 /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160D48145650490060A5C5 /* NSManagedObject+ActiveRecord.m */; };
@@ -319,138 +311,72 @@
 		25160F9E1456577F0060A5C5 /* RKJSONParserJSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 25160DB0145650490060A5C5 /* RKJSONParserJSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25160F9F1456577F0060A5C5 /* RKJSONParserJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160DB1145650490060A5C5 /* RKJSONParserJSONKit.m */; };
 		25160FA1145658BC0060A5C5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25160FA0145658BC0060A5C5 /* libxml2.dylib */; };
-		251610581456F2330060A5C5 /* RKManagedObjectLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FC71456F2330060A5C5 /* RKManagedObjectLoaderTest.m */; };
 		251610591456F2330060A5C5 /* RKManagedObjectLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FC71456F2330060A5C5 /* RKManagedObjectLoaderTest.m */; };
-		2516105A1456F2330060A5C5 /* RKManagedObjectMappingOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FC81456F2330060A5C5 /* RKManagedObjectMappingOperationTest.m */; };
 		2516105B1456F2330060A5C5 /* RKManagedObjectMappingOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FC81456F2330060A5C5 /* RKManagedObjectMappingOperationTest.m */; };
-		2516105C1456F2330060A5C5 /* RKManagedObjectMappingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FC91456F2330060A5C5 /* RKManagedObjectMappingTest.m */; };
 		2516105D1456F2330060A5C5 /* RKManagedObjectMappingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FC91456F2330060A5C5 /* RKManagedObjectMappingTest.m */; };
-		251610601456F2330060A5C5 /* RKManagedObjectStoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FCB1456F2330060A5C5 /* RKManagedObjectStoreTest.m */; };
 		251610611456F2330060A5C5 /* RKManagedObjectStoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FCB1456F2330060A5C5 /* RKManagedObjectStoreTest.m */; };
-		251610621456F2330060A5C5 /* RKManagedObjectThreadSafeInvocationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FCC1456F2330060A5C5 /* RKManagedObjectThreadSafeInvocationTest.m */; };
 		251610631456F2330060A5C5 /* RKManagedObjectThreadSafeInvocationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FCC1456F2330060A5C5 /* RKManagedObjectThreadSafeInvocationTest.m */; };
-		251610641456F2330060A5C5 /* blake.png in Resources */ = {isa = PBXBuildFile; fileRef = 25160FCF1456F2330060A5C5 /* blake.png */; };
 		251610651456F2330060A5C5 /* blake.png in Resources */ = {isa = PBXBuildFile; fileRef = 25160FCF1456F2330060A5C5 /* blake.png */; };
-		251610661456F2330060A5C5 /* ArrayOfNestedDictionaries.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD11456F2330060A5C5 /* ArrayOfNestedDictionaries.json */; };
 		251610671456F2330060A5C5 /* ArrayOfNestedDictionaries.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD11456F2330060A5C5 /* ArrayOfNestedDictionaries.json */; };
-		251610681456F2330060A5C5 /* ArrayOfResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD21456F2330060A5C5 /* ArrayOfResults.json */; };
 		251610691456F2330060A5C5 /* ArrayOfResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD21456F2330060A5C5 /* ArrayOfResults.json */; };
-		2516106A1456F2330060A5C5 /* ComplexNestedUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD31456F2330060A5C5 /* ComplexNestedUser.json */; };
 		2516106B1456F2330060A5C5 /* ComplexNestedUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD31456F2330060A5C5 /* ComplexNestedUser.json */; };
-		2516106C1456F2330060A5C5 /* ConnectingParents.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD41456F2330060A5C5 /* ConnectingParents.json */; };
 		2516106D1456F2330060A5C5 /* ConnectingParents.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD41456F2330060A5C5 /* ConnectingParents.json */; };
-		2516106E1456F2330060A5C5 /* boy.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD61456F2330060A5C5 /* boy.json */; };
 		2516106F1456F2330060A5C5 /* boy.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD61456F2330060A5C5 /* boy.json */; };
-		251610701456F2330060A5C5 /* friends.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD71456F2330060A5C5 /* friends.json */; };
 		251610711456F2330060A5C5 /* friends.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD71456F2330060A5C5 /* friends.json */; };
-		251610721456F2330060A5C5 /* girl.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD81456F2330060A5C5 /* girl.json */; };
 		251610731456F2330060A5C5 /* girl.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD81456F2330060A5C5 /* girl.json */; };
-		251610741456F2330060A5C5 /* mixed.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD91456F2330060A5C5 /* mixed.json */; };
 		251610751456F2330060A5C5 /* mixed.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FD91456F2330060A5C5 /* mixed.json */; };
-		251610761456F2330060A5C5 /* DynamicKeys.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDA1456F2330060A5C5 /* DynamicKeys.json */; };
 		251610771456F2330060A5C5 /* DynamicKeys.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDA1456F2330060A5C5 /* DynamicKeys.json */; };
-		251610781456F2330060A5C5 /* DynamicKeysWithNestedRelationship.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDB1456F2330060A5C5 /* DynamicKeysWithNestedRelationship.json */; };
 		251610791456F2330060A5C5 /* DynamicKeysWithNestedRelationship.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDB1456F2330060A5C5 /* DynamicKeysWithNestedRelationship.json */; };
-		2516107A1456F2330060A5C5 /* DynamicKeysWithRelationship.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDC1456F2330060A5C5 /* DynamicKeysWithRelationship.json */; };
 		2516107B1456F2330060A5C5 /* DynamicKeysWithRelationship.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDC1456F2330060A5C5 /* DynamicKeysWithRelationship.json */; };
-		2516107C1456F2330060A5C5 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDD1456F2330060A5C5 /* error.json */; };
 		2516107D1456F2330060A5C5 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDD1456F2330060A5C5 /* error.json */; };
-		2516107E1456F2330060A5C5 /* errors.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDE1456F2330060A5C5 /* errors.json */; };
 		2516107F1456F2330060A5C5 /* errors.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDE1456F2330060A5C5 /* errors.json */; };
-		251610801456F2330060A5C5 /* Foursquare.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDF1456F2330060A5C5 /* Foursquare.json */; };
 		251610811456F2330060A5C5 /* Foursquare.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FDF1456F2330060A5C5 /* Foursquare.json */; };
-		251610821456F2330060A5C5 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE11456F2330060A5C5 /* 1.json */; };
 		251610831456F2330060A5C5 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE11456F2330060A5C5 /* 1.json */; };
-		251610841456F2330060A5C5 /* all.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE21456F2330060A5C5 /* all.json */; };
 		251610851456F2330060A5C5 /* all.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE21456F2330060A5C5 /* all.json */; };
-		251610861456F2330060A5C5 /* with_to_one_relationship.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE31456F2330060A5C5 /* with_to_one_relationship.json */; };
 		251610871456F2330060A5C5 /* with_to_one_relationship.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE31456F2330060A5C5 /* with_to_one_relationship.json */; };
-		251610881456F2330060A5C5 /* nested_user.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE41456F2330060A5C5 /* nested_user.json */; };
 		251610891456F2330060A5C5 /* nested_user.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE41456F2330060A5C5 /* nested_user.json */; };
-		2516108A1456F2330060A5C5 /* RailsUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE51456F2330060A5C5 /* RailsUser.json */; };
 		2516108B1456F2330060A5C5 /* RailsUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE51456F2330060A5C5 /* RailsUser.json */; };
-		2516108C1456F2330060A5C5 /* SameKeyDifferentTargetClasses.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE61456F2330060A5C5 /* SameKeyDifferentTargetClasses.json */; };
 		2516108D1456F2330060A5C5 /* SameKeyDifferentTargetClasses.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE61456F2330060A5C5 /* SameKeyDifferentTargetClasses.json */; };
-		2516108E1456F2330060A5C5 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE71456F2330060A5C5 /* user.json */; };
 		2516108F1456F2330060A5C5 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE71456F2330060A5C5 /* user.json */; };
-		251610901456F2330060A5C5 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE81456F2330060A5C5 /* users.json */; };
 		251610911456F2330060A5C5 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 25160FE81456F2330060A5C5 /* users.json */; };
 		251610931456F2330060A5C5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 25160FEA1456F2330060A5C5 /* .gitignore */; };
-		251610961456F2330060A5C5 /* attributes_without_text_content.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FED1456F2330060A5C5 /* attributes_without_text_content.xml */; };
 		251610971456F2330060A5C5 /* attributes_without_text_content.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FED1456F2330060A5C5 /* attributes_without_text_content.xml */; };
-		251610981456F2330060A5C5 /* container_attributes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FEE1456F2330060A5C5 /* container_attributes.xml */; };
 		251610991456F2330060A5C5 /* container_attributes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FEE1456F2330060A5C5 /* container_attributes.xml */; };
-		2516109A1456F2330060A5C5 /* national_weather_service.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FEF1456F2330060A5C5 /* national_weather_service.xml */; };
 		2516109B1456F2330060A5C5 /* national_weather_service.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FEF1456F2330060A5C5 /* national_weather_service.xml */; };
-		2516109C1456F2330060A5C5 /* orders.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FF01456F2330060A5C5 /* orders.xml */; };
 		2516109D1456F2330060A5C5 /* orders.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FF01456F2330060A5C5 /* orders.xml */; };
-		2516109E1456F2330060A5C5 /* tab_data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FF11456F2330060A5C5 /* tab_data.xml */; };
 		2516109F1456F2330060A5C5 /* tab_data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FF11456F2330060A5C5 /* tab_data.xml */; };
-		251610A01456F2330060A5C5 /* zend.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FF21456F2330060A5C5 /* zend.xml */; };
 		251610A11456F2330060A5C5 /* zend.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25160FF21456F2330060A5C5 /* zend.xml */; };
-		251610A21456F2330060A5C5 /* Data Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 25160FF41456F2330060A5C5 /* Data Model.xcdatamodel */; };
 		251610A31456F2330060A5C5 /* Data Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 25160FF41456F2330060A5C5 /* Data Model.xcdatamodel */; };
-		251610A41456F2330060A5C5 /* RKCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FF61456F2330060A5C5 /* RKCat.m */; };
 		251610A51456F2330060A5C5 /* RKCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FF61456F2330060A5C5 /* RKCat.m */; };
-		251610A61456F2330060A5C5 /* RKChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FF81456F2330060A5C5 /* RKChild.m */; };
 		251610A71456F2330060A5C5 /* RKChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FF81456F2330060A5C5 /* RKChild.m */; };
-		251610A81456F2330060A5C5 /* RKDynamicMappingModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FFA1456F2330060A5C5 /* RKDynamicMappingModels.m */; };
 		251610A91456F2330060A5C5 /* RKDynamicMappingModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FFA1456F2330060A5C5 /* RKDynamicMappingModels.m */; };
-		251610AA1456F2330060A5C5 /* RKHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FFC1456F2330060A5C5 /* RKHouse.m */; };
 		251610AB1456F2330060A5C5 /* RKHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FFC1456F2330060A5C5 /* RKHouse.m */; };
-		251610AC1456F2330060A5C5 /* RKHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FFE1456F2330060A5C5 /* RKHuman.m */; };
 		251610AD1456F2330060A5C5 /* RKHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 25160FFE1456F2330060A5C5 /* RKHuman.m */; };
-		251610AE1456F2330060A5C5 /* RKMappableAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610001456F2330060A5C5 /* RKMappableAssociation.m */; };
 		251610AF1456F2330060A5C5 /* RKMappableAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610001456F2330060A5C5 /* RKMappableAssociation.m */; };
-		251610B01456F2330060A5C5 /* RKMappableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610021456F2330060A5C5 /* RKMappableObject.m */; };
 		251610B11456F2330060A5C5 /* RKMappableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610021456F2330060A5C5 /* RKMappableObject.m */; };
-		251610B21456F2330060A5C5 /* RKObjectLoaderTestResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610041456F2330060A5C5 /* RKObjectLoaderTestResultModel.m */; };
 		251610B31456F2330060A5C5 /* RKObjectLoaderTestResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610041456F2330060A5C5 /* RKObjectLoaderTestResultModel.m */; };
-		251610B41456F2330060A5C5 /* RKObjectMapperTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610061456F2330060A5C5 /* RKObjectMapperTestModel.m */; };
 		251610B51456F2330060A5C5 /* RKObjectMapperTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610061456F2330060A5C5 /* RKObjectMapperTestModel.m */; };
-		251610B61456F2330060A5C5 /* RKParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610081456F2330060A5C5 /* RKParent.m */; };
 		251610B71456F2330060A5C5 /* RKParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610081456F2330060A5C5 /* RKParent.m */; };
-		251610B81456F2330060A5C5 /* RKResident.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516100A1456F2330060A5C5 /* RKResident.m */; };
 		251610B91456F2330060A5C5 /* RKResident.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516100A1456F2330060A5C5 /* RKResident.m */; };
-		251610BE1456F2330060A5C5 /* RKAuthenticationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610101456F2330060A5C5 /* RKAuthenticationTest.m */; };
 		251610BF1456F2330060A5C5 /* RKAuthenticationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610101456F2330060A5C5 /* RKAuthenticationTest.m */; };
-		251610C01456F2330060A5C5 /* RKClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610111456F2330060A5C5 /* RKClientTest.m */; };
 		251610C11456F2330060A5C5 /* RKClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610111456F2330060A5C5 /* RKClientTest.m */; };
-		251610C21456F2330060A5C5 /* RKOAuthClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610121456F2330060A5C5 /* RKOAuthClientTest.m */; };
 		251610C31456F2330060A5C5 /* RKOAuthClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610121456F2330060A5C5 /* RKOAuthClientTest.m */; };
-		251610C41456F2330060A5C5 /* RKParamsAttachmentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610131456F2330060A5C5 /* RKParamsAttachmentTest.m */; };
 		251610C51456F2330060A5C5 /* RKParamsAttachmentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610131456F2330060A5C5 /* RKParamsAttachmentTest.m */; };
-		251610C61456F2330060A5C5 /* RKParamsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610141456F2330060A5C5 /* RKParamsTest.m */; };
 		251610C71456F2330060A5C5 /* RKParamsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610141456F2330060A5C5 /* RKParamsTest.m */; };
-		251610CA1456F2330060A5C5 /* RKRequestQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610171456F2330060A5C5 /* RKRequestQueueTest.m */; };
 		251610CB1456F2330060A5C5 /* RKRequestQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610171456F2330060A5C5 /* RKRequestQueueTest.m */; };
-		251610CC1456F2330060A5C5 /* RKRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610181456F2330060A5C5 /* RKRequestTest.m */; };
 		251610CD1456F2330060A5C5 /* RKRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610181456F2330060A5C5 /* RKRequestTest.m */; };
-		251610CE1456F2330060A5C5 /* RKResponseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610191456F2330060A5C5 /* RKResponseTest.m */; };
 		251610CF1456F2330060A5C5 /* RKResponseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610191456F2330060A5C5 /* RKResponseTest.m */; };
-		251610D01456F2330060A5C5 /* RKURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516101A1456F2330060A5C5 /* RKURLTest.m */; };
 		251610D11456F2330060A5C5 /* RKURLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516101A1456F2330060A5C5 /* RKURLTest.m */; };
-		251610D21456F2330060A5C5 /* RKDynamicObjectMappingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516101C1456F2330060A5C5 /* RKDynamicObjectMappingTest.m */; };
 		251610D31456F2330060A5C5 /* RKDynamicObjectMappingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516101C1456F2330060A5C5 /* RKDynamicObjectMappingTest.m */; };
-		251610D61456F2330060A5C5 /* RKObjectLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516101E1456F2330060A5C5 /* RKObjectLoaderTest.m */; };
 		251610D71456F2330060A5C5 /* RKObjectLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516101E1456F2330060A5C5 /* RKObjectLoaderTest.m */; };
-		251610D81456F2330060A5C5 /* RKObjectManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516101F1456F2330060A5C5 /* RKObjectManagerTest.m */; };
 		251610D91456F2330060A5C5 /* RKObjectManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516101F1456F2330060A5C5 /* RKObjectManagerTest.m */; };
-		251610DC1456F2330060A5C5 /* RKObjectMappingNextGenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610211456F2330060A5C5 /* RKObjectMappingNextGenTest.m */; };
 		251610DD1456F2330060A5C5 /* RKObjectMappingNextGenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610211456F2330060A5C5 /* RKObjectMappingNextGenTest.m */; };
-		251610DE1456F2330060A5C5 /* RKObjectMappingOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610221456F2330060A5C5 /* RKObjectMappingOperationTest.m */; };
 		251610DF1456F2330060A5C5 /* RKObjectMappingOperationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610221456F2330060A5C5 /* RKObjectMappingOperationTest.m */; };
-		251610E01456F2330060A5C5 /* RKObjectMappingProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610231456F2330060A5C5 /* RKObjectMappingProviderTest.m */; };
 		251610E11456F2330060A5C5 /* RKObjectMappingProviderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610231456F2330060A5C5 /* RKObjectMappingProviderTest.m */; };
-		251610E21456F2330060A5C5 /* RKObjectMappingResultTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610241456F2330060A5C5 /* RKObjectMappingResultTest.m */; };
 		251610E31456F2330060A5C5 /* RKObjectMappingResultTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610241456F2330060A5C5 /* RKObjectMappingResultTest.m */; };
-		251610E41456F2330060A5C5 /* RKObjectRouterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610251456F2330060A5C5 /* RKObjectRouterTest.m */; };
 		251610E51456F2330060A5C5 /* RKObjectRouterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610251456F2330060A5C5 /* RKObjectRouterTest.m */; };
-		251610E61456F2330060A5C5 /* RKObjectSerializerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610261456F2330060A5C5 /* RKObjectSerializerTest.m */; };
 		251610E71456F2330060A5C5 /* RKObjectSerializerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610261456F2330060A5C5 /* RKObjectSerializerTest.m */; };
-		251610E81456F2330060A5C5 /* RKParserRegistryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610271456F2330060A5C5 /* RKParserRegistryTest.m */; };
 		251610E91456F2330060A5C5 /* RKParserRegistryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610271456F2330060A5C5 /* RKParserRegistryTest.m */; };
-		251610F01456F2340060A5C5 /* RKTestEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610361456F2330060A5C5 /* RKTestEnvironment.m */; };
 		251610F11456F2340060A5C5 /* RKTestEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610361456F2330060A5C5 /* RKTestEnvironment.m */; };
 		251611031456F2340060A5C5 /* authentication.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2516104B1456F2330060A5C5 /* authentication.rb */; };
 		251611051456F2340060A5C5 /* etags.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2516104C1456F2330060A5C5 /* etags.rb */; };
@@ -458,37 +384,20 @@
 		251611091456F2340060A5C5 /* timeout.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2516104E1456F2330060A5C5 /* timeout.rb */; };
 		2516110B1456F2340060A5C5 /* restkit.rb in Resources */ = {isa = PBXBuildFile; fileRef = 2516104F1456F2330060A5C5 /* restkit.rb */; };
 		2516110D1456F2340060A5C5 /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = 251610501456F2330060A5C5 /* server.rb */; };
-		2516110E1456F2340060A5C5 /* NSDictionary+RKRequestSerializationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610521456F2330060A5C5 /* NSDictionary+RKRequestSerializationTest.m */; };
 		2516110F1456F2340060A5C5 /* NSDictionary+RKRequestSerializationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610521456F2330060A5C5 /* NSDictionary+RKRequestSerializationTest.m */; };
-		251611101456F2340060A5C5 /* NSStringRestKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610531456F2330060A5C5 /* NSStringRestKitTest.m */; };
 		251611111456F2340060A5C5 /* NSStringRestKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610531456F2330060A5C5 /* NSStringRestKitTest.m */; };
-		251611121456F2340060A5C5 /* RKDotNetDateFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610541456F2330060A5C5 /* RKDotNetDateFormatterTest.m */; };
 		251611131456F2340060A5C5 /* RKDotNetDateFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610541456F2330060A5C5 /* RKDotNetDateFormatterTest.m */; };
-		251611141456F2340060A5C5 /* RKJSONParserJSONKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610551456F2330060A5C5 /* RKJSONParserJSONKitTest.m */; };
 		251611151456F2340060A5C5 /* RKJSONParserJSONKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610551456F2330060A5C5 /* RKJSONParserJSONKitTest.m */; };
-		251611161456F2340060A5C5 /* RKPathMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610561456F2330060A5C5 /* RKPathMatcherTest.m */; };
 		251611171456F2340060A5C5 /* RKPathMatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610561456F2330060A5C5 /* RKPathMatcherTest.m */; };
-		251611181456F2340060A5C5 /* RKXMLParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610571456F2330060A5C5 /* RKXMLParserTest.m */; };
 		251611191456F2340060A5C5 /* RKXMLParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251610571456F2330060A5C5 /* RKXMLParserTest.m */; };
-		251611291456F50F0060A5C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251611281456F50F0060A5C5 /* SystemConfiguration.framework */; };
-		2516112B1456F5170060A5C5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2516112A1456F5170060A5C5 /* CFNetwork.framework */; };
-		2516112C1456F51D0060A5C5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25160F161456538B0060A5C5 /* libxml2.dylib */; };
-		2516112E1456F5520060A5C5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2516112D1456F5520060A5C5 /* CoreData.framework */; };
-		251611301456F5590060A5C5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2516112F1456F5590060A5C5 /* Security.framework */; };
-		251611321456F56C0060A5C5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251611311456F56C0060A5C5 /* MobileCoreServices.framework */; };
 		252A202D153471380078F8AD /* NSArray+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 252A202B153471380078F8AD /* NSArray+RKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		252A202E153471380078F8AD /* NSArray+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 252A202C153471380078F8AD /* NSArray+RKAdditions.m */; };
 		252A2030153471470078F8AD /* NSArray+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 252A202C153471380078F8AD /* NSArray+RKAdditions.m */; };
 		252A20311534714D0078F8AD /* NSArray+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 252A202B153471380078F8AD /* NSArray+RKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		252A2034153477870078F8AD /* NSArray+RKAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 252A2033153477870078F8AD /* NSArray+RKAdditionsTest.m */; };
 		252A2035153477870078F8AD /* NSArray+RKAdditionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 252A2033153477870078F8AD /* NSArray+RKAdditionsTest.m */; };
-		252EFAFA14D8EAEC004863C8 /* RKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFAF914D8EAEC004863C8 /* RKEvent.m */; };
 		252EFAFB14D8EAEC004863C8 /* RKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFAF914D8EAEC004863C8 /* RKEvent.m */; };
-		252EFB0814D98F4D004863C8 /* RKSearchableManagedObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB0614D98F4D004863C8 /* RKSearchableManagedObjectTest.m */; };
 		252EFB0914D98F4D004863C8 /* RKSearchableManagedObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB0614D98F4D004863C8 /* RKSearchableManagedObjectTest.m */; };
-		252EFB0A14D98F4D004863C8 /* RKSearchWordObserverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB0714D98F4D004863C8 /* RKSearchWordObserverTest.m */; };
 		252EFB0B14D98F4D004863C8 /* RKSearchWordObserverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB0714D98F4D004863C8 /* RKSearchWordObserverTest.m */; };
-		252EFB0D14D98F76004863C8 /* RKMutableBlockDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB0C14D98F76004863C8 /* RKMutableBlockDictionaryTest.m */; };
 		252EFB0E14D98F76004863C8 /* RKMutableBlockDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB0C14D98F76004863C8 /* RKMutableBlockDictionaryTest.m */; };
 		252EFB1B14D9A7CB004863C8 /* NSBundle+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 252EFB1914D9A7CB004863C8 /* NSBundle+RKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		252EFB1C14D9A7CB004863C8 /* NSBundle+RKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 252EFB1914D9A7CB004863C8 /* NSBundle+RKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -496,7 +405,6 @@
 		252EFB1E14D9A7CB004863C8 /* NSBundle+RKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB1A14D9A7CB004863C8 /* NSBundle+RKAdditions.m */; };
 		252EFB2514D9B6F2004863C8 /* Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 252EFB2414D9B6F2004863C8 /* Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		252EFB2614D9B6F2004863C8 /* Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 252EFB2414D9B6F2004863C8 /* Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		252EFB2814DA0689004863C8 /* NakedEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 252EFB2714DA0689004863C8 /* NakedEvents.json */; };
 		252EFB2914DA0689004863C8 /* NakedEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 252EFB2714DA0689004863C8 /* NakedEvents.json */; };
 		253B495214E35D1A00B0483F /* RKTestFixture.h in Headers */ = {isa = PBXBuildFile; fileRef = 252EFB2014D9B35D004863C8 /* RKTestFixture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		253B495F14E35EC300B0483F /* RKTestFixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB2114D9B35D004863C8 /* RKTestFixture.m */; };
@@ -504,7 +412,6 @@
 		254A62BA14AD544200939BEE /* RKObjectPaginator.h in Headers */ = {isa = PBXBuildFile; fileRef = 254A62B714AD544200939BEE /* RKObjectPaginator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		254A62BB14AD544200939BEE /* RKObjectPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A62B814AD544200939BEE /* RKObjectPaginator.m */; };
 		254A62BC14AD544200939BEE /* RKObjectPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A62B814AD544200939BEE /* RKObjectPaginator.m */; };
-		254A62C014AD591C00939BEE /* RKObjectPaginatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A62BF14AD591C00939BEE /* RKObjectPaginatorTest.m */; };
 		254A62C114AD591C00939BEE /* RKObjectPaginatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A62BF14AD591C00939BEE /* RKObjectPaginatorTest.m */; };
 		25545959155F0527007D7625 /* RKBenchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 25545957155F0527007D7625 /* RKBenchmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2554595A155F0527007D7625 /* RKBenchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 25545957155F0527007D7625 /* RKBenchmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -531,21 +438,17 @@
 		259C3027151280A1003066A2 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EC1AE314F8022600C3CF3F /* grayArrow@2x.png */; };
 		259C3028151280A1003066A2 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EC1AE414F8022600C3CF3F /* whiteArrow.png */; };
 		259C3029151280A1003066A2 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25EC1AE514F8022600C3CF3F /* whiteArrow@2x.png */; };
-		259D983C154F6C90008C90F5 /* benchmark_parents_and_children.json in Resources */ = {isa = PBXBuildFile; fileRef = 259D983B154F6C90008C90F5 /* benchmark_parents_and_children.json */; };
 		259D983D154F6C90008C90F5 /* benchmark_parents_and_children.json in Resources */ = {isa = PBXBuildFile; fileRef = 259D983B154F6C90008C90F5 /* benchmark_parents_and_children.json */; };
 		259D98541550C69A008C90F5 /* RKEntityByAttributeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 259D98521550C69A008C90F5 /* RKEntityByAttributeCache.h */; };
 		259D98551550C69A008C90F5 /* RKEntityByAttributeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 259D98521550C69A008C90F5 /* RKEntityByAttributeCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		259D98561550C69A008C90F5 /* RKEntityByAttributeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D98531550C69A008C90F5 /* RKEntityByAttributeCache.m */; };
 		259D98571550C69A008C90F5 /* RKEntityByAttributeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D98531550C69A008C90F5 /* RKEntityByAttributeCache.m */; };
-		259D985A1550C6BE008C90F5 /* RKEntityByAttributeCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D98591550C6BE008C90F5 /* RKEntityByAttributeCacheTest.m */; };
 		259D985B1550C6BE008C90F5 /* RKEntityByAttributeCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D98591550C6BE008C90F5 /* RKEntityByAttributeCacheTest.m */; };
 		259D985E155218E5008C90F5 /* RKEntityCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 259D985C155218E4008C90F5 /* RKEntityCache.h */; };
 		259D985F155218E5008C90F5 /* RKEntityCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 259D985C155218E4008C90F5 /* RKEntityCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		259D9860155218E5008C90F5 /* RKEntityCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D985D155218E4008C90F5 /* RKEntityCache.m */; };
 		259D9861155218E5008C90F5 /* RKEntityCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D985D155218E4008C90F5 /* RKEntityCache.m */; };
-		259D986415521B20008C90F5 /* RKEntityCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D986315521B1F008C90F5 /* RKEntityCacheTest.m */; };
 		259D986515521B20008C90F5 /* RKEntityCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D986315521B1F008C90F5 /* RKEntityCacheTest.m */; };
-		25A2476E153E667E003240B6 /* RKCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A2476D153E667E003240B6 /* RKCacheTest.m */; };
 		25A2476F153E667E003240B6 /* RKCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A2476D153E667E003240B6 /* RKCacheTest.m */; };
 		25A34245147D8AAA0009758D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A34244147D8AAA0009758D /* Security.framework */; };
 		25B408261491CDDC00F21111 /* RKDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B408241491CDDB00F21111 /* RKDirectory.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -586,57 +489,31 @@
 		25B6E95D14CF7E3C00B1E881 /* RKDynamicObjectMappingMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B6E95A14CF7E3C00B1E881 /* RKDynamicObjectMappingMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25B6E95E14CF7E3C00B1E881 /* RKDynamicObjectMappingMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E95B14CF7E3C00B1E881 /* RKDynamicObjectMappingMatcher.m */; };
 		25B6E95F14CF7E3C00B1E881 /* RKDynamicObjectMappingMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E95B14CF7E3C00B1E881 /* RKDynamicObjectMappingMatcher.m */; };
-		25B6E9A414CF829400B1E881 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B6E97B14CF829400B1E881 /* InfoPlist.strings */; };
 		25B6E9A514CF829400B1E881 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B6E97B14CF829400B1E881 /* InfoPlist.strings */; };
-		25B6E9A614CF829400B1E881 /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E97E14CF829400B1E881 /* NSInvocation+OCMAdditions.m */; };
 		25B6E9A714CF829400B1E881 /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E97E14CF829400B1E881 /* NSInvocation+OCMAdditions.m */; };
-		25B6E9A814CF829400B1E881 /* NSMethodSignature+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98014CF829400B1E881 /* NSMethodSignature+OCMAdditions.m */; };
 		25B6E9A914CF829400B1E881 /* NSMethodSignature+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98014CF829400B1E881 /* NSMethodSignature+OCMAdditions.m */; };
-		25B6E9AA14CF829400B1E881 /* NSNotificationCenter+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98114CF829400B1E881 /* NSNotificationCenter+OCMAdditions.m */; };
 		25B6E9AB14CF829400B1E881 /* NSNotificationCenter+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98114CF829400B1E881 /* NSNotificationCenter+OCMAdditions.m */; };
-		25B6E9AC14CF829400B1E881 /* OCClassMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98314CF829400B1E881 /* OCClassMockObject.m */; };
 		25B6E9AD14CF829400B1E881 /* OCClassMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98314CF829400B1E881 /* OCClassMockObject.m */; };
-		25B6E9AE14CF829400B1E881 /* OCMArg.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98414CF829400B1E881 /* OCMArg.m */; };
 		25B6E9AF14CF829400B1E881 /* OCMArg.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98414CF829400B1E881 /* OCMArg.m */; };
-		25B6E9B014CF829400B1E881 /* OCMBlockCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98614CF829400B1E881 /* OCMBlockCaller.m */; };
 		25B6E9B114CF829400B1E881 /* OCMBlockCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98614CF829400B1E881 /* OCMBlockCaller.m */; };
-		25B6E9B214CF829400B1E881 /* OCMBoxedReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98814CF829400B1E881 /* OCMBoxedReturnValueProvider.m */; };
 		25B6E9B314CF829400B1E881 /* OCMBoxedReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98814CF829400B1E881 /* OCMBoxedReturnValueProvider.m */; };
-		25B6E9B414CF829400B1E881 /* OCMConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98914CF829400B1E881 /* OCMConstraint.m */; };
 		25B6E9B514CF829400B1E881 /* OCMConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98914CF829400B1E881 /* OCMConstraint.m */; };
-		25B6E9B614CF829400B1E881 /* OCMExceptionReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98B14CF829400B1E881 /* OCMExceptionReturnValueProvider.m */; };
 		25B6E9B714CF829400B1E881 /* OCMExceptionReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98B14CF829400B1E881 /* OCMExceptionReturnValueProvider.m */; };
-		25B6E9B814CF829400B1E881 /* OCMIndirectReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98D14CF829400B1E881 /* OCMIndirectReturnValueProvider.m */; };
 		25B6E9B914CF829400B1E881 /* OCMIndirectReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98D14CF829400B1E881 /* OCMIndirectReturnValueProvider.m */; };
-		25B6E9BA14CF829400B1E881 /* OCMNotificationPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98F14CF829400B1E881 /* OCMNotificationPoster.m */; };
 		25B6E9BB14CF829400B1E881 /* OCMNotificationPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E98F14CF829400B1E881 /* OCMNotificationPoster.m */; };
-		25B6E9BC14CF829400B1E881 /* OCMObserverRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99114CF829400B1E881 /* OCMObserverRecorder.m */; };
 		25B6E9BD14CF829400B1E881 /* OCMObserverRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99114CF829400B1E881 /* OCMObserverRecorder.m */; };
-		25B6E9BE14CF829400B1E881 /* OCMock-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25B6E99214CF829400B1E881 /* OCMock-Info.plist */; };
 		25B6E9BF14CF829400B1E881 /* OCMock-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25B6E99214CF829400B1E881 /* OCMock-Info.plist */; };
-		25B6E9C014CF829400B1E881 /* OCMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99414CF829400B1E881 /* OCMockObject.m */; };
 		25B6E9C114CF829400B1E881 /* OCMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99414CF829400B1E881 /* OCMockObject.m */; };
-		25B6E9C214CF829400B1E881 /* OCMockRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99514CF829400B1E881 /* OCMockRecorder.m */; };
 		25B6E9C314CF829400B1E881 /* OCMockRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99514CF829400B1E881 /* OCMockRecorder.m */; };
-		25B6E9C414CF829400B1E881 /* OCMPassByRefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99714CF829400B1E881 /* OCMPassByRefSetter.m */; };
 		25B6E9C514CF829400B1E881 /* OCMPassByRefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99714CF829400B1E881 /* OCMPassByRefSetter.m */; };
-		25B6E9C614CF829400B1E881 /* OCMRealObjectForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99914CF829400B1E881 /* OCMRealObjectForwarder.m */; };
 		25B6E9C714CF829400B1E881 /* OCMRealObjectForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99914CF829400B1E881 /* OCMRealObjectForwarder.m */; };
-		25B6E9C814CF829400B1E881 /* OCMReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99B14CF829400B1E881 /* OCMReturnValueProvider.m */; };
 		25B6E9C914CF829400B1E881 /* OCMReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99B14CF829400B1E881 /* OCMReturnValueProvider.m */; };
-		25B6E9CA14CF829400B1E881 /* OCObserverMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99D14CF829400B1E881 /* OCObserverMockObject.m */; };
 		25B6E9CB14CF829400B1E881 /* OCObserverMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99D14CF829400B1E881 /* OCObserverMockObject.m */; };
-		25B6E9CC14CF829400B1E881 /* OCPartialMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99F14CF829400B1E881 /* OCPartialMockObject.m */; };
 		25B6E9CD14CF829400B1E881 /* OCPartialMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E99F14CF829400B1E881 /* OCPartialMockObject.m */; };
-		25B6E9CE14CF829400B1E881 /* OCPartialMockRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9A114CF829400B1E881 /* OCPartialMockRecorder.m */; };
 		25B6E9CF14CF829400B1E881 /* OCPartialMockRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9A114CF829400B1E881 /* OCPartialMockRecorder.m */; };
-		25B6E9D014CF829400B1E881 /* OCProtocolMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9A314CF829400B1E881 /* OCProtocolMockObject.m */; };
 		25B6E9D114CF829400B1E881 /* OCProtocolMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9A314CF829400B1E881 /* OCProtocolMockObject.m */; };
-		25B6E9DB14CF912500B1E881 /* RKSearchable.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9D614CF912500B1E881 /* RKSearchable.m */; };
 		25B6E9DC14CF912500B1E881 /* RKSearchable.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9D614CF912500B1E881 /* RKSearchable.m */; };
-		25B6E9DD14CF912500B1E881 /* RKTestAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9D814CF912500B1E881 /* RKTestAddress.m */; };
 		25B6E9DE14CF912500B1E881 /* RKTestAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9D814CF912500B1E881 /* RKTestAddress.m */; };
-		25B6E9DF14CF912500B1E881 /* RKTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9DA14CF912500B1E881 /* RKTestUser.m */; };
 		25B6E9E014CF912500B1E881 /* RKTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9DA14CF912500B1E881 /* RKTestUser.m */; };
 		25B6E9E914CF940700B1E881 /* RKManagedObjectSearchEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B6E9E114CF940600B1E881 /* RKManagedObjectSearchEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25B6E9EA14CF940700B1E881 /* RKManagedObjectSearchEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B6E9E114CF940600B1E881 /* RKManagedObjectSearchEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -662,18 +539,13 @@
 		25B6EA0214CF943E00B1E881 /* RKMutableBlockDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B6E9FB14CF943E00B1E881 /* RKMutableBlockDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25B6EA0314CF943E00B1E881 /* RKMutableBlockDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9FC14CF943E00B1E881 /* RKMutableBlockDictionary.m */; };
 		25B6EA0414CF943E00B1E881 /* RKMutableBlockDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6E9FC14CF943E00B1E881 /* RKMutableBlockDictionary.m */; };
-		25B6EA0614CF946400B1E881 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B6EA0514CF946300B1E881 /* QuartzCore.framework */; };
-		25B6EA0814CF947E00B1E881 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B6EA0714CF947D00B1E881 /* CoreGraphics.framework */; };
 		25C954A715542A47005C9E08 /* RKTestConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C954A415542A47005C9E08 /* RKTestConstants.m */; };
 		25C954A815542A47005C9E08 /* RKTestConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C954A415542A47005C9E08 /* RKTestConstants.m */; };
 		25CA7A8F14EC570200888FF8 /* RKObjectMappingDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CA7A8E14EC570100888FF8 /* RKObjectMappingDefinition.m */; };
 		25CA7A9014EC570200888FF8 /* RKObjectMappingDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CA7A8E14EC570100888FF8 /* RKObjectMappingDefinition.m */; };
 		25CA7A9114EC5C2D00888FF8 /* RKTestFixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 252EFB2114D9B35D004863C8 /* RKTestFixture.m */; };
-		25CAAA9415254E7800CAE5D7 /* ArrayOfHumans.json in Resources */ = {isa = PBXBuildFile; fileRef = 25CAAA9315254E7800CAE5D7 /* ArrayOfHumans.json */; };
 		25CAAA9515254E7800CAE5D7 /* ArrayOfHumans.json in Resources */ = {isa = PBXBuildFile; fileRef = 25CAAA9315254E7800CAE5D7 /* ArrayOfHumans.json */; };
-		25DB7508151BD551009F01AF /* NSManagedObject+ActiveRecordTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB7507151BD551009F01AF /* NSManagedObject+ActiveRecordTest.m */; };
 		25DB7509151BD551009F01AF /* NSManagedObject+ActiveRecordTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB7507151BD551009F01AF /* NSManagedObject+ActiveRecordTest.m */; };
-		25E36E0215195CED00F9E448 /* RKFetchRequestMappingCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E36E0115195CED00F9E448 /* RKFetchRequestMappingCacheTest.m */; };
 		25E36E0315195CED00F9E448 /* RKFetchRequestMappingCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E36E0115195CED00F9E448 /* RKFetchRequestMappingCacheTest.m */; };
 		25E4DAB4156DA97F00A5C84B /* RKTableControllerTestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E4DAB2156DA97F00A5C84B /* RKTableControllerTestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25E4DAB5156DA97F00A5C84B /* RKTableControllerTestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E4DAB2156DA97F00A5C84B /* RKTableControllerTestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -736,22 +608,12 @@
 		49D275AE14C9F3020090845D /* RKISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D275AB14C9F3020090845D /* RKISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49D275AF14C9F3020090845D /* RKISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D275AC14C9F3020090845D /* RKISO8601DateFormatter.m */; };
 		49D275B014C9F3020090845D /* RKISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D275AC14C9F3020090845D /* RKISO8601DateFormatter.m */; };
-		73D3907414CA1AE00093E3D6 /* parent.json in Resources */ = {isa = PBXBuildFile; fileRef = 73D3907114CA19F90093E3D6 /* parent.json */; };
 		73D3907514CA1AE20093E3D6 /* parent.json in Resources */ = {isa = PBXBuildFile; fileRef = 73D3907114CA19F90093E3D6 /* parent.json */; };
-		73D3907614CA1AE60093E3D6 /* child.json in Resources */ = {isa = PBXBuildFile; fileRef = 73D3907314CA1A4A0093E3D6 /* child.json */; };
 		73D3907714CA1AE60093E3D6 /* child.json in Resources */ = {isa = PBXBuildFile; fileRef = 73D3907314CA1A4A0093E3D6 /* child.json */; };
-		73D3907914CA1DD40093E3D6 /* channels.xml in Resources */ = {isa = PBXBuildFile; fileRef = 73D3907814CA1D710093E3D6 /* channels.xml */; };
 		73D3907A14CA1DD50093E3D6 /* channels.xml in Resources */ = {isa = PBXBuildFile; fileRef = 73D3907814CA1D710093E3D6 /* channels.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25160D2C14564E820060A5C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25160D0D14564E810060A5C5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25160D1514564E810060A5C5;
-			remoteInfo = RestKit;
-		};
 		25160E7B145651060060A5C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 25160D0D14564E810060A5C5 /* Project object */;
@@ -794,7 +656,6 @@
 		2513504D14B8FE6B00A7E893 /* RKConfigurationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKConfigurationDelegate.h; sourceTree = "<group>"; };
 		25160D1614564E810060A5C5 /* libRestKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRestKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		25160D1914564E810060A5C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		25160D2614564E820060A5C5 /* RestKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25160D2714564E820060A5C5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		25160D2914564E820060A5C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		25160D46145650490060A5C5 /* CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreData.h; sourceTree = "<group>"; };
@@ -1240,26 +1101,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25160D2214564E820060A5C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25055B9314EEFEC800B9C4DD /* libRestKit.a in Frameworks */,
-				25B6EA0814CF947E00B1E881 /* CoreGraphics.framework in Frameworks */,
-				25B6EA0614CF946400B1E881 /* QuartzCore.framework in Frameworks */,
-				251611321456F56C0060A5C5 /* MobileCoreServices.framework in Frameworks */,
-				251611301456F5590060A5C5 /* Security.framework in Frameworks */,
-				2516112E1456F5520060A5C5 /* CoreData.framework in Frameworks */,
-				2516112C1456F51D0060A5C5 /* libxml2.dylib in Frameworks */,
-				2516112B1456F5170060A5C5 /* CFNetwork.framework in Frameworks */,
-				251611291456F50F0060A5C5 /* SystemConfiguration.framework in Frameworks */,
-				25160D2814564E820060A5C5 /* SenTestingKit.framework in Frameworks */,
-				25160D2A14564E820060A5C5 /* UIKit.framework in Frameworks */,
-				25160D2B14564E820060A5C5 /* Foundation.framework in Frameworks */,
-				250CA67E147D8E8F0047D347 /* OCHamcrestIOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		25160E5E145651060060A5C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1318,7 +1159,6 @@
 			isa = PBXGroup;
 			children = (
 				25160D1614564E810060A5C5 /* libRestKit.a */,
-				25160D2614564E820060A5C5 /* RestKitTests.octest */,
 				25160E62145651060060A5C5 /* RestKit.framework */,
 				25160E78145651060060A5C5 /* RestKitFrameworkTests.octest */,
 				259C301615128079003066A2 /* RestKitResources.bundle */,
@@ -2421,25 +2261,6 @@
 			productReference = 25160D1614564E810060A5C5 /* libRestKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		25160D2514564E820060A5C5 /* RestKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 25160D3D14564E820060A5C5 /* Build configuration list for PBXNativeTarget "RestKitTests" */;
-			buildPhases = (
-				25160D2114564E820060A5C5 /* Sources */,
-				25160D2214564E820060A5C5 /* Frameworks */,
-				25160D2314564E820060A5C5 /* Resources */,
-				25160D2414564E820060A5C5 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				25160D2D14564E820060A5C5 /* PBXTargetDependency */,
-			);
-			name = RestKitTests;
-			productName = RestKitTests;
-			productReference = 25160D2614564E820060A5C5 /* RestKitTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
-		};
 		25160E61145651060060A5C5 /* RestKitFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25160E87145651060060A5C5 /* Build configuration list for PBXNativeTarget "RestKitFramework" */;
@@ -2518,7 +2339,6 @@
 			projectRoot = "";
 			targets = (
 				25160D1514564E810060A5C5 /* RestKit */,
-				25160D2514564E820060A5C5 /* RestKitTests */,
 				25160E61145651060060A5C5 /* RestKitFramework */,
 				25160E77145651060060A5C5 /* RestKitFrameworkTests */,
 				259C301515128079003066A2 /* RestKitResources */,
@@ -2527,51 +2347,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		25160D2314564E820060A5C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				251610641456F2330060A5C5 /* blake.png in Resources */,
-				251610661456F2330060A5C5 /* ArrayOfNestedDictionaries.json in Resources */,
-				251610681456F2330060A5C5 /* ArrayOfResults.json in Resources */,
-				2516106A1456F2330060A5C5 /* ComplexNestedUser.json in Resources */,
-				2516106C1456F2330060A5C5 /* ConnectingParents.json in Resources */,
-				2516106E1456F2330060A5C5 /* boy.json in Resources */,
-				251610701456F2330060A5C5 /* friends.json in Resources */,
-				251610721456F2330060A5C5 /* girl.json in Resources */,
-				251610741456F2330060A5C5 /* mixed.json in Resources */,
-				251610761456F2330060A5C5 /* DynamicKeys.json in Resources */,
-				251610781456F2330060A5C5 /* DynamicKeysWithNestedRelationship.json in Resources */,
-				2516107A1456F2330060A5C5 /* DynamicKeysWithRelationship.json in Resources */,
-				2516107C1456F2330060A5C5 /* error.json in Resources */,
-				2516107E1456F2330060A5C5 /* errors.json in Resources */,
-				251610801456F2330060A5C5 /* Foursquare.json in Resources */,
-				251610821456F2330060A5C5 /* 1.json in Resources */,
-				251610841456F2330060A5C5 /* all.json in Resources */,
-				251610861456F2330060A5C5 /* with_to_one_relationship.json in Resources */,
-				251610881456F2330060A5C5 /* nested_user.json in Resources */,
-				2516108A1456F2330060A5C5 /* RailsUser.json in Resources */,
-				2516108C1456F2330060A5C5 /* SameKeyDifferentTargetClasses.json in Resources */,
-				2516108E1456F2330060A5C5 /* user.json in Resources */,
-				251610901456F2330060A5C5 /* users.json in Resources */,
-				251610961456F2330060A5C5 /* attributes_without_text_content.xml in Resources */,
-				251610981456F2330060A5C5 /* container_attributes.xml in Resources */,
-				2516109A1456F2330060A5C5 /* national_weather_service.xml in Resources */,
-				2516109C1456F2330060A5C5 /* orders.xml in Resources */,
-				2516109E1456F2330060A5C5 /* tab_data.xml in Resources */,
-				251610A01456F2330060A5C5 /* zend.xml in Resources */,
-				73D3907414CA1AE00093E3D6 /* parent.json in Resources */,
-				73D3907614CA1AE60093E3D6 /* child.json in Resources */,
-				73D3907914CA1DD40093E3D6 /* channels.xml in Resources */,
-				25B6E9A414CF829400B1E881 /* InfoPlist.strings in Resources */,
-				25B6E9BE14CF829400B1E881 /* OCMock-Info.plist in Resources */,
-				252EFB2814DA0689004863C8 /* NakedEvents.json in Resources */,
-				25CAAA9415254E7800CAE5D7 /* ArrayOfHumans.json in Resources */,
-				25119FB6154A34B400C6BC58 /* parents_and_children.json in Resources */,
-				259D983C154F6C90008C90F5 /* benchmark_parents_and_children.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		25160E60145651060060A5C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2652,19 +2427,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		25160D2414564E820060A5C5 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n#\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n\n# Run the unit tests in this test bundle.\n\"${SRCROOT}/Tests/RunPlatformUnitTests\"";
-		};
 		25160E76145651060060A5C5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2807,93 +2569,6 @@
 				259D9860155218E5008C90F5 /* RKEntityCache.m in Sources */,
 				2554595B155F0527007D7625 /* RKBenchmark.m in Sources */,
 				25E4DAB6156DA97F00A5C84B /* RKTableControllerTestDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		25160D2114564E820060A5C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				251610581456F2330060A5C5 /* RKManagedObjectLoaderTest.m in Sources */,
-				2516105A1456F2330060A5C5 /* RKManagedObjectMappingOperationTest.m in Sources */,
-				2516105C1456F2330060A5C5 /* RKManagedObjectMappingTest.m in Sources */,
-				251610601456F2330060A5C5 /* RKManagedObjectStoreTest.m in Sources */,
-				251610621456F2330060A5C5 /* RKManagedObjectThreadSafeInvocationTest.m in Sources */,
-				251610A21456F2330060A5C5 /* Data Model.xcdatamodel in Sources */,
-				251610A41456F2330060A5C5 /* RKCat.m in Sources */,
-				251610A61456F2330060A5C5 /* RKChild.m in Sources */,
-				251610A81456F2330060A5C5 /* RKDynamicMappingModels.m in Sources */,
-				251610AA1456F2330060A5C5 /* RKHouse.m in Sources */,
-				251610AC1456F2330060A5C5 /* RKHuman.m in Sources */,
-				251610AE1456F2330060A5C5 /* RKMappableAssociation.m in Sources */,
-				251610B01456F2330060A5C5 /* RKMappableObject.m in Sources */,
-				251610B21456F2330060A5C5 /* RKObjectLoaderTestResultModel.m in Sources */,
-				251610B41456F2330060A5C5 /* RKObjectMapperTestModel.m in Sources */,
-				251610B61456F2330060A5C5 /* RKParent.m in Sources */,
-				251610B81456F2330060A5C5 /* RKResident.m in Sources */,
-				251610BE1456F2330060A5C5 /* RKAuthenticationTest.m in Sources */,
-				251610C01456F2330060A5C5 /* RKClientTest.m in Sources */,
-				251610C21456F2330060A5C5 /* RKOAuthClientTest.m in Sources */,
-				251610C41456F2330060A5C5 /* RKParamsAttachmentTest.m in Sources */,
-				251610C61456F2330060A5C5 /* RKParamsTest.m in Sources */,
-				251610CA1456F2330060A5C5 /* RKRequestQueueTest.m in Sources */,
-				251610CC1456F2330060A5C5 /* RKRequestTest.m in Sources */,
-				251610CE1456F2330060A5C5 /* RKResponseTest.m in Sources */,
-				251610D01456F2330060A5C5 /* RKURLTest.m in Sources */,
-				251610D21456F2330060A5C5 /* RKDynamicObjectMappingTest.m in Sources */,
-				251610D61456F2330060A5C5 /* RKObjectLoaderTest.m in Sources */,
-				251610D81456F2330060A5C5 /* RKObjectManagerTest.m in Sources */,
-				251610DC1456F2330060A5C5 /* RKObjectMappingNextGenTest.m in Sources */,
-				251610DE1456F2330060A5C5 /* RKObjectMappingOperationTest.m in Sources */,
-				251610E01456F2330060A5C5 /* RKObjectMappingProviderTest.m in Sources */,
-				251610E21456F2330060A5C5 /* RKObjectMappingResultTest.m in Sources */,
-				251610E41456F2330060A5C5 /* RKObjectRouterTest.m in Sources */,
-				251610E61456F2330060A5C5 /* RKObjectSerializerTest.m in Sources */,
-				251610E81456F2330060A5C5 /* RKParserRegistryTest.m in Sources */,
-				251610F01456F2340060A5C5 /* RKTestEnvironment.m in Sources */,
-				2516110E1456F2340060A5C5 /* NSDictionary+RKRequestSerializationTest.m in Sources */,
-				251611101456F2340060A5C5 /* NSStringRestKitTest.m in Sources */,
-				251611121456F2340060A5C5 /* RKDotNetDateFormatterTest.m in Sources */,
-				251611141456F2340060A5C5 /* RKJSONParserJSONKitTest.m in Sources */,
-				251611161456F2340060A5C5 /* RKPathMatcherTest.m in Sources */,
-				251611181456F2340060A5C5 /* RKXMLParserTest.m in Sources */,
-				254A62C014AD591C00939BEE /* RKObjectPaginatorTest.m in Sources */,
-				25B6E9A614CF829400B1E881 /* NSInvocation+OCMAdditions.m in Sources */,
-				25B6E9A814CF829400B1E881 /* NSMethodSignature+OCMAdditions.m in Sources */,
-				25B6E9AA14CF829400B1E881 /* NSNotificationCenter+OCMAdditions.m in Sources */,
-				25B6E9AC14CF829400B1E881 /* OCClassMockObject.m in Sources */,
-				25B6E9AE14CF829400B1E881 /* OCMArg.m in Sources */,
-				25B6E9B014CF829400B1E881 /* OCMBlockCaller.m in Sources */,
-				25B6E9B214CF829400B1E881 /* OCMBoxedReturnValueProvider.m in Sources */,
-				25B6E9B414CF829400B1E881 /* OCMConstraint.m in Sources */,
-				25B6E9B614CF829400B1E881 /* OCMExceptionReturnValueProvider.m in Sources */,
-				25B6E9B814CF829400B1E881 /* OCMIndirectReturnValueProvider.m in Sources */,
-				25B6E9BA14CF829400B1E881 /* OCMNotificationPoster.m in Sources */,
-				25B6E9BC14CF829400B1E881 /* OCMObserverRecorder.m in Sources */,
-				25B6E9C014CF829400B1E881 /* OCMockObject.m in Sources */,
-				25B6E9C214CF829400B1E881 /* OCMockRecorder.m in Sources */,
-				25B6E9C414CF829400B1E881 /* OCMPassByRefSetter.m in Sources */,
-				25B6E9C614CF829400B1E881 /* OCMRealObjectForwarder.m in Sources */,
-				25B6E9C814CF829400B1E881 /* OCMReturnValueProvider.m in Sources */,
-				25B6E9CA14CF829400B1E881 /* OCObserverMockObject.m in Sources */,
-				25B6E9CC14CF829400B1E881 /* OCPartialMockObject.m in Sources */,
-				25B6E9CE14CF829400B1E881 /* OCPartialMockRecorder.m in Sources */,
-				25B6E9D014CF829400B1E881 /* OCProtocolMockObject.m in Sources */,
-				25B6E9DB14CF912500B1E881 /* RKSearchable.m in Sources */,
-				25B6E9DD14CF912500B1E881 /* RKTestAddress.m in Sources */,
-				25B6E9DF14CF912500B1E881 /* RKTestUser.m in Sources */,
-				252EFAFA14D8EAEC004863C8 /* RKEvent.m in Sources */,
-				252EFB0814D98F4D004863C8 /* RKSearchableManagedObjectTest.m in Sources */,
-				252EFB0A14D98F4D004863C8 /* RKSearchWordObserverTest.m in Sources */,
-				252EFB0D14D98F76004863C8 /* RKMutableBlockDictionaryTest.m in Sources */,
-				25E36E0215195CED00F9E448 /* RKFetchRequestMappingCacheTest.m in Sources */,
-				25079C76151B952200266AE7 /* NSEntityDescription+RKAdditionsTest.m in Sources */,
-				25DB7508151BD551009F01AF /* NSManagedObject+ActiveRecordTest.m in Sources */,
-				252A2034153477870078F8AD /* NSArray+RKAdditionsTest.m in Sources */,
-				2501405315366000004E0466 /* RKObjectiveCppTest.mm in Sources */,
-				25A2476E153E667E003240B6 /* RKCacheTest.m in Sources */,
-				259D985A1550C6BE008C90F5 /* RKEntityByAttributeCacheTest.m in Sources */,
-				259D986415521B20008C90F5 /* RKEntityCacheTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3097,11 +2772,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		25160D2D14564E820060A5C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 25160D1514564E810060A5C5 /* RestKit */;
-			targetProxy = 25160D2C14564E820060A5C5 /* PBXContainerItemProxy */;
-		};
 		25160E7C145651060060A5C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 25160E61145651060060A5C5 /* RestKitFramework */;
@@ -3225,50 +2895,6 @@
 				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers/RestKit;
 				SKIP_INSTALL = YES;
 				SYMROOT = "$(SRCROOT)/Build/Products";
-			};
-			name = Release;
-		};
-		25160D3E14564E820060A5C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/Tests/Vendor\"",
-					"\"$(SRCROOT)/Tests/Vendor/OCHamcrest\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Code/Support/RestKit-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Tests/Vendor/OCMock\"";
-				INFOPLIST_FILE = "Resources/PLISTs/RestKitTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = "${CONFIGURATION_BUILD_DIR}";
-				OBJROOT = "$(SRCROOT)/Build";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SYMROOT = "$(SRCROOT)/Build/Products";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		25160D3F14564E820060A5C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/Tests/Vendor\"",
-					"\"$(SRCROOT)/Tests/Vendor/OCHamcrest\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Code/Support/RestKit-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Tests/Vendor/OCMock\"";
-				INFOPLIST_FILE = "Resources/PLISTs/RestKitTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = "${CONFIGURATION_BUILD_DIR}";
-				OBJROOT = "$(SRCROOT)/Build";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SYMROOT = "$(SRCROOT)/Build/Products";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -3435,15 +3061,6 @@
 			buildConfigurations = (
 				25160D3B14564E820060A5C5 /* Debug */,
 				25160D3C14564E820060A5C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		25160D3D14564E820060A5C5 /* Build configuration list for PBXNativeTarget "RestKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				25160D3E14564E820060A5C5 /* Debug */,
-				25160D3F14564E820060A5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
